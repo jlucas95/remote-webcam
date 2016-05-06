@@ -21,6 +21,8 @@ while True:
         file.write(buffer[:recv_bytes])
         total_bytes += recv_bytes
     print("{0} bytes written to file {1}".format(total_bytes, file_name))
-file.close()
+
+    file.close()
+
 soc.close()
 
